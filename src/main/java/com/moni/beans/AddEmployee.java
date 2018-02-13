@@ -18,5 +18,7 @@ public class AddEmployee {
 		System.out.println(empBean.getEmpName());
 		
 		System.out.println("Jenkins test");
+		System.out.println("Jenkins test");
+		System.out.println("Jenkins test");
 	}
 }
