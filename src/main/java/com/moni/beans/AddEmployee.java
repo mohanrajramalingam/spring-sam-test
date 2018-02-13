@@ -11,10 +11,12 @@ public class AddEmployee {
 		@SuppressWarnings("resource")
 		ApplicationContext context = new ClassPathXmlApplicationContext(confFile);
 
-		Employee empBean = (Employee) context.getBean("");
+		Employee empBean = (Employee) context.getBean("myBean2");
 		empBean.setEmpId(12);
 		empBean.setEmpName("MR");
 		System.out.println(empBean.getEmpId());
 		System.out.println(empBean.getEmpName());
+		
+		System.out.println("Jenkins test");
 	}
 }
